@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Titulo: #8B5CF6
+Texto: #F5F5F5
+Background (fondo): #0B0B0F
+Contraste: #00F5FF
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+:root{
+    --headings: #030303;
+    --text: #ffffff;
+    --accent: #fdfdfd;
+    --bg-ppal: #2b6b25;
+    --bg-sec: #29d1da;
+}
+/*RESET*/
+body{
+    background-color: var(--bg-ppal);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playfair display", sans-serif;
+    color: var(--text);
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    color: var(--text);
+}
+
+figcaption{
+    font-family: "Playfair display", sans-serif;
+    color: #ffffff;
+}
+
+.logo{
+    height: 15vh;
+    width: auto;
+}
+
+.rrr{
+    height: 11vh;
+    width: auto;
+    padding-bottom: 8px;
+}
+
+.x{
+    height: 11vh;
+    width: auto;
+    padding-bottom: 6px;
+}
+
+.wpp-flotante{
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.wpp-flotante img{
+    display: block;
+    height: 80px;
+    width: auto;
+}
+
+img{
+    height: 70vh;
+    width: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+}
+
+header{
+    background-color: #205326;
+    padding-left: 4px;
+    padding-top: 8px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding-right: 10px;
+    color: #ffffff;
+    font-family: "Playfair display", sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main{
+    display: flex;
+    padding-left: 150px;
+    padding-top: 13px;
+    height: 6px;
+    font-style: oblique;
+    color: #ffffff;
+}
+
+.img1{
+    display: flex;
+    padding-left:7px;
+    height: 69vh;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+.img2{
+    display: flex;
+    padding-left: 7px;
+    padding-top: 30px;
+    height: 80vh;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+.video{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 7px;
+}
+
+.logosrs{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 5px;
+    justify-content: end;
+    gap: 5px;
+}
+
+.texto1{
+    font-style: oblique;
+    padding-left: 7px;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.texto2{
+    font-style: oblique;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+.argentina{
+    font-style: italic;
+    padding-top: 35px;
+    padding-right: 600px;
+    font-family: "Playfair display", sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: right;
+    padding-right: 150px;
+    padding-top: 65px;
+    height: 5px;
+}
+
+.hero-boton{
+    display: inline-block;
+    padding-top: 13px;
+    padding-inline: 10px;
+    padding-bottom: 10px;
+    background-color: #463819;
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding-left: 21;
+    color: #ffffff;
+    font-family: "Playfair display", sans-serif;
+}
+
+.footer{
+    background-color: #205326;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-right: 25px;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer div p{
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.grid-text{
+    text-align: center;
+    padding-left: 3rem;
+    padding-top: 10px;
+    font-style: oblique;
+    height: 10px;
+    color: #ffffff;
+}
+
+.sobre-mi h1{
+    font-family: "Playfair display", sans-serif;
+    padding-left: 230px;
+}
+
+.sobre-mi p{
+    padding-top: 5px;
+}
+
+.img-lugares{
+    display: flex;
+    justify-content: left;
+    padding-top: 11rem;
+    padding-left: 7px;
+}
+
+.campo-piedra{
+    height: 52vh;
+    width: auto;
+    border-radius: 30px;
+}
+
+.arroyo-turquesa{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.payunia{
+    margin: 5px;
+}
+
+/* MEDIA QUERIES*/
+
+/*TABLET*/
+@media (min-width: 568px) and (max-width: 991px){
+    /*MEDIDA GENERICA TABLET*/
+}
+
+/*MOBILE*/
+@media (min-width: 300px) and (max-width: 567px){
+    /*SOBRE NOSOTROS*/
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 1rem 3rem;
+    }
+
+    .img-lugares{
+        display: flex;
+        justify-content: center;
+        padding-left: 0.1rem;
+    }
+
+    .img-lugares img{
+        width: 75vh;
+        height: auto;
+    }
+
+    .grid-text p{
+        padding: 0 25px;
+    }
+}
